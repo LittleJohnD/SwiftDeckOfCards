@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DBA4F4221B0A3306008CD3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F4211B0A3306008CD3E6 /* AppDelegate.swift */; };
-		DBA4F4251B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F4231B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodeld */; };
 		DBA4F4271B0A3306008CD3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F4261B0A3306008CD3E6 /* ViewController.swift */; };
 		DBA4F42A1B0A3306008CD3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA4F4281B0A3306008CD3E6 /* Main.storyboard */; };
 		DBA4F42C1B0A3306008CD3E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA4F42B1B0A3306008CD3E6 /* Images.xcassets */; };
@@ -30,7 +29,6 @@
 		DBA4F41C1B0A3306008CD3E6 /* SwiftDeckOfCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDeckOfCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA4F4201B0A3306008CD3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBA4F4211B0A3306008CD3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBA4F4241B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftDeckOfCards.xcdatamodel; sourceTree = "<group>"; };
 		DBA4F4261B0A3306008CD3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBA4F4291B0A3306008CD3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBA4F42B1B0A3306008CD3E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 				DBA4F4281B0A3306008CD3E6 /* Main.storyboard */,
 				DBA4F42B1B0A3306008CD3E6 /* Images.xcassets */,
 				DBA4F42D1B0A3306008CD3E6 /* LaunchScreen.xib */,
-				DBA4F4231B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodeld */,
 				DBA4F41F1B0A3306008CD3E6 /* Supporting Files */,
 			);
 			path = SwiftDeckOfCards;
@@ -217,7 +214,6 @@
 			files = (
 				DBA4F4271B0A3306008CD3E6 /* ViewController.swift in Sources */,
 				DBA4F4221B0A3306008CD3E6 /* AppDelegate.swift in Sources */,
-				DBA4F4251B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +405,7 @@
 				DBA4F4401B0A3306008CD3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBA4F4411B0A3306008CD3E6 /* Build configuration list for PBXNativeTarget "SwiftDeckOfCardsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,21 +414,9 @@
 				DBA4F4431B0A3306008CD3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DBA4F4231B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DBA4F4241B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodel */,
-			);
-			currentVersion = DBA4F4241B0A3306008CD3E6 /* SwiftDeckOfCards.xcdatamodel */;
-			path = SwiftDeckOfCards.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DBA4F4141B0A3306008CD3E6 /* Project object */;
 }
