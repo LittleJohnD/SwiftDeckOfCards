@@ -34,7 +34,7 @@ enum Suit {
         case .Hearts:
             return "hearts"
         case .Diamonds:
-            return "diamonds"
+            return  "diamonds"
         case .Clubs:
             return "clubs"
         }
